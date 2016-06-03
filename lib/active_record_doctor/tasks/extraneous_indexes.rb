@@ -36,7 +36,7 @@ module ActiveRecordDoctor
                 extraneous_index.name,
                 maximum_indexes.find do |maximum_index|
                   prefix?(extraneous_index, maximum_index)
-                end.name
+                end
               ]
             end
           end
